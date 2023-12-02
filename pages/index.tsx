@@ -25,7 +25,7 @@ export default function HomePage() {
 
   return (
     <main>
-      <h1>Hello, Amplify 👋</h1>
+      <h1>Future Ellodere Stack?</h1>
       <button onClick={async () => {
         // create a new Todo with the following attributes
         const { errors, data: newTodo } = await client.models.Todo.create({
